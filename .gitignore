@@ -1,0 +1,37 @@
+﻿# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- Runtime / regenerated data ----
+models/
+output/
+input/
+temp/
+user/
+web/
+.cache/
+comfyui.log
+*.log
+*.tmp
+
+# ---- Model weights (NEVER commit — see models-manifest.md) ----
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+*.onnx
+*.pkl
+
+# ---- OS / editor ----
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# ---- Keep the manifest ----
+!models-manifest.md
